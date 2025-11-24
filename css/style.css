@@ -1,0 +1,20 @@
+.wrapper1 {
+    display: grid;
+    grid-template-columns: 20%, 30%, 30%, 20%;
+    grid-template-rows: 20%, 70%, 10%;
+    grid-template-areas:
+    "sec header header nav"
+    "aside main main section"
+    "footer footer footer footer";
+    gap: 20px;
+    min-height: 100vh;
+    padding: 20px;
+    }
+    
+    
+    .delius-regular {
+        font-family: "Delius", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
